@@ -1,36 +1,23 @@
-body{
-    background-size: cover;
+body
+{
+background-position: center;
+background-size: cover;
 }
 
-.heading{
-    font-size: 23px;
-    width: 100%;
-    margin: 0px;
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
 }
 
-.subtitel{
-    font-size: 15px;
-    width: 100%;
-    margin: 0px;
-    color: black;
-}
-.Object_Name,.input_box{
-    float: center;
+#status , #number_of_objects
+{
+font-size: 18px;
 }
 
-.copy_right_footer{
-    position: fixed;
-    color: white;
-    bottom: 0;
-    width: 100%;
-    background-color: gray;
-    line-height: 3;
-    text-align: center;
-}
-
-canvas{
-    border: 2px solid white ;
-    border-radius: 10px;
-    margin-top: 130px;
-    box-shadow: 5px 5px 6px white;
-}
+canvas
+{
+box-shadow: 5px 5px 5px lightgrey;
+border-radius: 10px;
+margin-top: 180px;}
